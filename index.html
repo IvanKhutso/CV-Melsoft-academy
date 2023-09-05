@@ -3,72 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melsoft Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Ivan Khutso - MERN Stack Developer</title>
 </head>
 <body>
-    <!-- Section 1 -->
-    <div style="display: flex; align-items: center; background-color: #f0f0f0; padding: 20px;">
-        <img src="pic.jpg" alt="" style="border-radius: 50%; max-width: 100px;">
-        <div style="margin-left: 20px;">
-            <h1 style="font-family: Arial, sans-serif; font-size: 24px; margin: 0;">Ivan Khutso</h1>
-            <p style="font-size: 14px; margin: 5px 0;"><i>Founder and CEO of <a href="www.databasket.tech" style="text-decoration: none; color: #0078d4;">Data Basket</a></i></p>
-            <p style="font-size: 16px; margin: 0;">I'm a passionate Software Developer with a love for both coding and crafting. I am dedicated and ready to bring your ideas to life! 👨 💻</p>
+    <!-- Section 1 - Profile -->
+    <div class="section section1">
+        <img src="pic.jpg" alt="" class="profile-image">
+        <div class="profile-info">
+            <h1>Ivan Khutso</h1>
+            <p><i>Founder and CEO of <a href="https://www.databasket.tech" class="profile-link">Data Basket</a></i></p>
+            <p>I'm a passionate MERN stack developer with a love for building web applications. Let's bring your ideas to life! ☕🚀</p>
         </div>
     </div>
-    
+
     <hr>
 
-    <!-- Section 2 -->
-    <div style="background-color: #fff; padding: 20px;">
-        <h3 style="font-size: 20px; margin: 0;">Books and Teaching</h3>
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="font-size: 16px; margin: 5px 0;">The Complete iOS App Development Bootcamp</li>
-            <li style="font-size: 16px; margin: 5px 0;">The Complete Web Development Bootcamp</li>
+    <!-- Section 2 - Books and Teaching -->
+    <div class="section">
+        <h2>Books and Teaching</h2>
+        <ul>
+            <li>The Complete iOS App Development Bootcamp</li>
+            <li>The Complete Web Development Bootcamp</li>
         </ul>
     </div>
 
     <hr>
 
-    <!-- Section 3 -->
-    <div style="background-color: #fff; padding: 20px;">
-        <h3 style="font-size: 20px; margin: 0;">Work Experience</h3>
+    <!-- Section 3 - Work Experience -->
+    <div class="section">
+        <h2>Work Experience</h2>
         <table>
             <tr>
-                <th style="font-size: 16px;">Dates</th>
-                <th style="font-size: 16px;">Work</th>
+                <th>Dates</th>
+                <th>Work</th>
             </tr>
             <tr>
-                <td style="font-size: 16px;">2020 - 2021</td>
-                <td style="font-size: 16px;">Software Developer at ABC Company</td>
+                <td>2020 - 2021</td>
+                <td>Software Developer at ABC Company</td>
             </tr>
             <tr>
-                <td style="font-size: 16px;">2018 - 2019</td>
-                <td style="font-size: 16px;">Web Developer at XYZ Corporation</td>
+                <td>2018 - 2019</td>
+                <td>Web Developer at XYZ Corporation</td>
             </tr>
             <tr>
-                <td style="font-size: 16px;">2016 - 2017</td>
-                <td style="font-size: 16px;">Full-Stack Developer at 123 Company</td>
+                <td>2016 - 2017</td>
+                <td>Full-Stack Developer at 123 Company</td>
             </tr>
         </table>
     </div>
 
     <hr>
 
-    <!-- Section 4 -->
-    <div style="background-color: #fff; padding: 20px;">
-        <h3 style="font-size: 20px; margin: 0;">Skills</h3>
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="font-size: 16px; margin: 5px 0;">HTML: ★★★★☆</li>
-            <li style="font-size: 16px; margin: 5px 0;">CSS: ★★★☆☆</li>
-            <li style="font-size: 16px; margin: 5px 0;">JavaScript: ★★★★☆</li>
+    <!-- Section 4 - Skills -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li class="skill-item">MERN Stack Development</li>
+            <li class="skill-item">
+                JavaScript: <span class="skill-rating">★★★★☆</span>
+            </li>
+            <li class="skill-item">
+                React.js: <span class="skill-rating">★★★★☆</span>
+            </li>
+            <li class="skill-item">
+                Node.js: <span class="skill-rating">★★★★☆</span>
+            </li>
+            <li class="skill-item">
+                Express.js: <span class="skill-rating">★★★★☆</span>
+            </li>
+            <li class="skill-item">
+                MongoDB: <span class="skill-rating">★★★★☆</span>
+            </li>
+            <li class="skill-item">
+                HTML/CSS: <span class="skill-rating">★★★★☆</span>
+            </li>
         </ul>
     </div>
 
     <hr>
 
-    <!-- Section 5 -->
-    <div style="background-color: #fff; padding: 20px;">
-        <p style="font-size: 16px; margin: 0;"><a href="ivankhutso.netlify.app" style="text-decoration: none; color: #0078d4; margin-right: 20px;">My Hobbies</a> <a href="ivankhutso.netlify.app" style="text-decoration: none; color: #0078d4;">Contact Me</a></p>
+    <!-- Section 5 - Projects -->
+    <div class="section">
+        <h2>Projects</h2>
+        <p>Check out some of my notable projects:</p>
+        <ul>
+            <li><a href="https://github.com/IvanKhutso/MERN-EMI-loanCalculator" class="project-link">EMI Loan Calculator</a>: A loan management system with registration, login, payments, using Express, Node.js, MongoDB, ReactJS.</li>
+            <li><a href="https://github.com/IvanKhutso/Job-Search-React-Native-Expo-CLI" class="project-link">Job Search Mobile App</a>: React Native and Expo CLI, streamlines job search experience.</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- Section 6 - Contact and Portfolio Links -->
+    <div class="section">
+        <p>Feel free to reach out:</p>
+        <p>
+            <a href="https://ivankhutso.netlify.app" class="portfolio-link">Portfolio</a>
+            <a href="https://github.com/IvanKhutso" class="github-link">GitHub</a>
+            <a href="mailto:ivankhutso@gmail.com" class="email-link">Email</a>
+        </p>
     </div>
 </body>
 </html>

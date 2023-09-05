@@ -1,0 +1,107 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles for headings and paragraphs */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Section styles */
+.section {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+/* Profile section */
+.section1 {
+    display: flex;
+    align-items: center;
+    background-color: #00d0d4;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Skill list items */
+.skill-item {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Skill rating styles */
+.skill-rating {
+    font-size: 18px;
+    margin-left: 5px;
+    color: hsl(191, 100%, 50%); 
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0078d4;
+    margin-right: 20px;
+}
